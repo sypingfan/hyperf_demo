@@ -30,4 +30,7 @@ return [
             LogLevel::WARNING,
         ],
     ],
+    /*'foo'=>[
+        'bar'=>321,
+    ]*/
 ];
