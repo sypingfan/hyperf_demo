@@ -12,7 +12,7 @@ use Hyperf\Di\Annotation\AbstractAnnotation;
 #[\Attribute(\Attribute::TARGET_CLASS | \Attribute::TARGET_METHOD)]
 class Foo extends AbstractAnnotation
 {
-    #[PropertyAnnotation]
+//    #[PropertyAnnotation]
     public $bar;
 
     public $baz;
@@ -20,7 +20,7 @@ class Foo extends AbstractAnnotation
     public function __construct(...$value)
     {
         var_dump($value);
-        parent::__construct($value);
-        $this->bindMainProperty("bar",$value);
+//        parent::__construct($value);
+//        $this->bindMainProperty("bar",$value);
     }
 }

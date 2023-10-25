@@ -1,5 +1,6 @@
 <?php
 /**
+ * 读取配置文件
  * Created by PhpStorm.
  * User: 平凡
  * Date: 2023/10/20

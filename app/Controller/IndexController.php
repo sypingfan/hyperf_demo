@@ -14,7 +14,7 @@ use Hyperf\HttpServer\Annotation\AutoController;
 use App\Annotation\Foo;
 
 #[AutoController]
-#[Foo("123")]
+#[Foo(["bar"=>"123"])]
 class IndexController
 {
     public function index()
