@@ -10,5 +10,6 @@ declare(strict_types=1);
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
 return [
-
+    'uri' => 'http://172.17.0.8:8500',
+    'token' => '',
 ];
